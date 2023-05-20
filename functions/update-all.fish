@@ -17,3 +17,10 @@ function update-all
     # conda
     conda update --all
 end
+
+function _start_update_prompt --argument-names name
+    echo "\\n"
+    echo "-------------------"
+    echo "-Updating $name-"
+    echo "-------------------"
+end
