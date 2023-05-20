@@ -24,7 +24,7 @@ function update-all
 end
 
 function _start_update_prompt --argument-names name
-    echo "\\n"
+    echo ""
     echo "-------------------"
     echo "-Updating $name-"
     echo "-------------------"
