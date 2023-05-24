@@ -20,7 +20,7 @@ function update-all
 
     # conda
     _start_update_prompt "conda"
-    conda update --all --yes
+    conda update -c conda-forge --all --yes
 end
 
 function _start_update_prompt --argument-names name
